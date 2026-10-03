@@ -1,0 +1,2 @@
+SystemMessage(content='you are a helpful {domain} expert'),
+HumanMessage(content='Explain in simple terms ,what is {topic}')

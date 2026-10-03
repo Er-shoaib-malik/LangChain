@@ -17,7 +17,7 @@ paper_input = st.selectbox( "Select Research paper name" , ["Attention is All yo
 style_input = st.selectbox( "Select  Explanation Style", ["Beginner-Friendly" ,"Technincal","code priented","Mathematical"])
 length_input = st.selectbox( "Select Explanation Length", ["Short (1-2) paragraphs","Medium (3-5 paragraphs)","Long (Detailed Explanation)"])
 
-template = load_prompt('../template.json')
+template = load_prompt('template.json')
 
 # prompt = template.invoke({
 #     'paper_input' : paper_input ,
